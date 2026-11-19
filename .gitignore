@@ -1,0 +1,30 @@
+.vs/
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+.env
+.env.local
+*.user
+*.suo
+
+# Environment and secrets
+.env.*
+!.env.example
+appsettings.*.json
+!appsettings.json
+!appsettings.example.json
+secrets.json
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+**/appsettings.Development.json
+# Obsolete reference documentation
+README-original-reference.md

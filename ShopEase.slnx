@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/backend/">
+    <Project Path="src/backend/ShopEase.Api/ShopEase.Api.csproj" />
+    <Project Path="src/backend/ShopEase.Application/ShopEase.Application.csproj" />
+    <Project Path="src/backend/ShopEase.Domain/ShopEase.Domain.csproj" />
+    <Project Path="src/backend/ShopEase.Infrastructure/ShopEase.Infrastructure.csproj" />
+  </Folder>
+</Solution>

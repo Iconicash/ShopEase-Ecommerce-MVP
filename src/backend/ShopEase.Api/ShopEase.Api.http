@@ -1,0 +1,33 @@
+@ShopEase.Api_HostAddress = http://localhost:5157
+
+### Public product catalogue
+GET {{ShopEase.Api_HostAddress}}/api/products
+Accept: application/json
+
+### Public categories
+GET {{ShopEase.Api_HostAddress}}/api/categories
+Accept: application/json
+
+### Register a customer (replace email if already registered)
+POST {{ShopEase.Api_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "fullName": "Demo Customer",
+  "email": "customer@example.com",
+  "password": "Customer@123"
+}
+
+### Login (copy token from response and use it as Bearer token below)
+POST {{ShopEase.Api_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "customer@example.com",
+  "password": "Customer@123"
+}
+
+### Current authenticated user (replace TOKEN)
+GET {{ShopEase.Api_HostAddress}}/api/auth/me
+Authorization: Bearer TOKEN
+Accept: application/json
