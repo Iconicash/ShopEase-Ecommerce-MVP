@@ -112,6 +112,26 @@ ShopEase-Complete-MVP/
         └── vite.config.js
 ```
 
+## Application Screenshots
+
+### Home Page
+![Home Page](docs/screenshots/home.png)
+
+### Login
+![Login](docs/screenshots/login.png)
+
+### Shopping Cart
+![Shopping Cart](docs/screenshots/cart.png)
+
+### Checkout
+![Checkout](docs/screenshots/cart.png)
+
+### My Orders
+![My Orders](docs/screenshots/my-orders.png)
+
+### Admin Dashboard
+![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+
 ## Important
 
 This project has been built and run locally on Windows. The .NET backend and React frontend builds succeeded, and the database migrations were applied successfully. Manually tested workflows include customer registration and login, product browsing, cart operations, Cash on Delivery checkout, order history, Admin login and dashboard, and order status updates. This is a portfolio MVP, not a production-ready commerce platform. It does not currently integrate a real payment gateway.
